@@ -43,5 +43,8 @@ return [
             'tolerance' => env('STRIPE_WEBHOOK_TOLERANCE', 300),
         ],
     ],
+    'slack' => [
+        'error' => env('LOG_SLACK_WEBHOOK_URL'),
+    ],
 
 ];
